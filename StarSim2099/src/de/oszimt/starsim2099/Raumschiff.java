@@ -6,15 +6,13 @@ package de.oszimt.starsim2099;
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Raumschiff {
+public class Raumschiff extends Position{
 
 	// Attributet
 	private String typ;
 	private String antrieb;
 	private int MaxLadekapazitaet;
 	private int Winkel;
-	private double posX;
-	private double posY;
 	
 	
 	// Methoden
@@ -55,26 +53,6 @@ public class Raumschiff {
 
 	public void setWinkel(int winkel) {
 		Winkel = winkel;
-	}
-
-
-	public double getPosX() {
-		return posX;
-	}
-
-
-	public void setPosX(double posX) {
-		this.posX = posX;
-	}
-
-
-	public double getPosY() {
-		return posY;
-	}
-
-
-	public void setPosY(double posY) {
-		this.posY = posY;
 	}
 
 

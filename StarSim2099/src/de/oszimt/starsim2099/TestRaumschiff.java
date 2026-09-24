@@ -1,6 +1,6 @@
 package de.oszimt.starsim2099;
 
-public class TestRaumschiff {
+public class TestRaumschiff extends Position{
 
 	public static void main(String[] args) {
 
@@ -17,8 +17,6 @@ public class TestRaumschiff {
 		meinRaumschiff.setAntrieb(antrieb);
 		meinRaumschiff.setMaxLadekapazitaet(maxKapazitaet);
 		meinRaumschiff.setWinkel(winkel);
-		meinRaumschiff.setPosX(posX);
-		meinRaumschiff.setPosY(posY);
 		
 		if (meinRaumschiff.getTyp().equals(typ))
 			System.out.println("Implementierung 'Typ' korrekt!");
@@ -33,12 +31,6 @@ public class TestRaumschiff {
 		if (meinRaumschiff.getWinkel() == winkel)
 			System.out.println("Implementierung 'Winkel' korrekt!");
 		
-		if (meinRaumschiff.getPosX() == posX)
-			System.out.println("Implementierung 'Position X' korrekt!");
-		
-		if (meinRaumschiff.getPosY() == posY)
-			System.out.println("Implementierung 'Position Y' korrekt!");
-
 	}
 
 }
