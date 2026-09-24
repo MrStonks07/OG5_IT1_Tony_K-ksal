@@ -11,8 +11,8 @@ public class Raumschiff {
 	// Attributet
 	private String typ;
 	private String antrieb;
-	private int maxkapazitet;
-	private int winkle;
+	private int MaxLadekapazitaet;
+	private int Winkel;
 	private double posX;
 	private double posY;
 	
@@ -39,23 +39,22 @@ public class Raumschiff {
 	}
 
 
-	public int getMaxkapazitet() {
-		return maxkapazitet;
+	public int getMaxLadekapazitaet() {
+		return MaxLadekapazitaet;
 	}
 
 
-	public void setMaxkapazitet(int maxkapazitet) {
-		this.maxkapazitet = maxkapazitet;
+	public void setMaxLadekapazitaet(int maxLadekapazitaet) {
+		MaxLadekapazitaet = maxLadekapazitaet;
+	}
+
+	public int getWinkel() {
+		return Winkel;
 	}
 
 
-	public int getWinkle() {
-		return winkle;
-	}
-
-
-	public void setWinkle(int winkle) {
-		this.winkle = winkle;
+	public void setWinkel(int winkel) {
+		Winkel = winkel;
 	}
 
 
