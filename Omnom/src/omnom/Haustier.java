@@ -10,6 +10,11 @@ public class Haustier {
 	private int gesund;
 	private String name;
 	
+	public Haustier(String name) {
+		super();
+		this.name = name;
+	}
+	
 	//Methode
 	public int getHunger() {
 		return hunger;
@@ -40,6 +45,18 @@ public class Haustier {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	public void fuettern(int menge) {
+		hunger = hunger + menge;
+	}
+	public void schlafen(int menge) {
+		muede = muede + menge;
+	}
+	public void spielen(int menge) {
+		zufrieden = zufrieden + menge;
+	}
+	public void heilen() {
+		gesund = 100;
 	}
 	
 	
