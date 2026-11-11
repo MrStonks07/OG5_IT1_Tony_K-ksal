@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="3SchichtenArchitektur/src"/>
+	<classpathentry kind="src" path="MiniMath/src"/>
+	<classpathentry kind="src" path="OG_Vererbung/src"/>
+	<classpathentry kind="src" path="Omnom/src"/>
+	<classpathentry kind="src" path="Rekursion/src"/>
+	<classpathentry kind="src" path="StarSim2099/src"/>
+	<classpathentry kind="src" path="Tanksimulator/src"/>
+	<classpathentry kind="src" path="Tanksimulator JavaFX/src"/>
+	<classpathentry kind="src" path="Taschenrechner_v0/src"/>
+	<classpathentry kind="lib" path="StarSim2099/lib/libjcsi.jar"/>
+	<classpathentry kind="output" path="OG_Vererbung/bin"/>
+</classpath>
